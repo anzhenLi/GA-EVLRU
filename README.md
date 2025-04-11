@@ -1,6 +1,11 @@
 <div align="center">
 <h1>Genetic Algorithm - EV Least Recently Used</h1>
 
+<a href="https://arxiv.org/abs/2504.07453"><img src='https://img.shields.io/badge/Paper-%20GA_EVLRU%20-red' alt='Paper PDF'></a>
+<a ><img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-white" /></a>[![GitHub Stars](https://img.shields.io/github/stars/anzhenLi/GA-EVLRU.svg)](https://github.com/anzhenLi/GA-EVLRU/stargazers)<a href="https://github.com/anzhenLi/GA-EVLRU/network/members">
+<img alt="FORK" src="https://img.shields.io/github/forks/anzhenLi/GA-EVLRU?color=white" />
+</a> [![GitHub Issues](https://img.shields.io/github/issues/anzhenLi/GA-EVLRU.svg)](https://github.com/anzhenLi/GA-EVLRU/issues)[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://opensource.org/licenses/gpl-3-0)
+
 ![overview](assets/exr.png)
 
 This study proposes a probability estimation model based on charging pile data and constructs nine scenario-specific battery swap demand datasets. An innovative approach by combining the Least Recently Used (LRU) strategy with genetic algorithms and incorporating a guided search mechanism, which effectively enhances the global optimization capability.
@@ -69,5 +74,10 @@ The ST-EVCDP dataset is under the MIT license. The UrbanEV dataset is under the 
 
 If you find this project useful, please consider citing:
 ```bibtex
-
+@inproceedings{li2025gaevlru,
+      title={Probability Estimation and Scheduling Optimization for Battery Swap Stations via LRU-Enhanced Genetic Algorithm and Dual-Factor Decision System}, 
+      author={Anzhen Li and Shufan Qing and Xiaochang Li and Rui Mao and Mingchen Feng},
+      journal={arXiv preprint arXiv:2504.07453},
+      year={2025}
+}
 ```
